@@ -1,0 +1,85 @@
+:root,
+[data-theme="light"] {
+  --font-display: "Instrument Serif", Georgia, serif;
+  --font-body: "Satoshi", "Inter", system-ui, sans-serif;
+
+  --text-xs: clamp(0.75rem, 0.7rem + 0.25vw, 0.875rem);
+  --text-sm: clamp(0.875rem, 0.8rem + 0.35vw, 1rem);
+  --text-base: clamp(1rem, 0.95rem + 0.25vw, 1.125rem);
+  --text-lg: clamp(1.125rem, 1rem + 0.75vw, 1.5rem);
+  --text-xl: clamp(1.5rem, 1.2rem + 1.25vw, 2.25rem);
+  --text-2xl: clamp(2rem, 1.2rem + 2.5vw, 3.5rem);
+  --text-3xl: clamp(2.5rem, 1rem + 4vw, 5rem);
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --space-24: 6rem;
+
+  --color-bg: #f7f6f2;
+  --color-surface: #f9f8f5;
+  --color-surface-2: #ffffff;
+  --color-surface-offset: #f0ede8;
+  --color-divider: #dcd9d5;
+  --color-border: rgba(40, 37, 29, 0.1);
+  --color-text: #28251d;
+  --color-text-muted: #6b6860;
+  --color-text-faint: #b0aea8;
+  --color-text-inverse: #f9f8f4;
+
+  --color-primary: #0a6e6e;
+  --color-primary-hover: #084e4e;
+  --color-primary-active: #063838;
+  --color-primary-light: #e0f0ee;
+  --color-primary-subtle: rgba(10, 110, 110, 0.08);
+
+  --color-accent: #d97706;
+
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-2xl: 1.5rem;
+  --radius-full: 9999px;
+
+  --shadow-sm: 0 1px 3px rgba(40, 37, 29, 0.07);
+  --shadow-md: 0 4px 16px rgba(40, 37, 29, 0.09);
+  --shadow-lg: 0 12px 40px rgba(40, 37, 29, 0.12);
+  --shadow-xl: 0 24px 64px rgba(40, 37, 29, 0.14);
+
+  --transition: 180ms cubic-bezier(0.16, 1, 0.3, 1);
+  --content-narrow: 640px;
+  --content-default: 960px;
+  --content-wide: 1160px;
+}
+
+[data-theme="dark"] {
+  --color-bg: #141311;
+  --color-surface: #1a1917;
+  --color-surface-2: #201f1c;
+  --color-surface-offset: #252320;
+  --color-divider: #2e2c28;
+  --color-border: rgba(255, 255, 255, 0.08);
+  --color-text: #d4d2ce;
+  --color-text-muted: #8a8880;
+  --color-text-faint: #55534e;
+  --color-text-inverse: #1a1917;
+  --color-primary: #3d9fa0;
+  --color-primary-hover: #5bb8b8;
+  --color-primary-active: #72cbcb;
+  --color-primary-light: #1a3535;
+  --color-primary-subtle: rgba(61, 159, 160, 0.12);
+  --color-accent: #fbbf24;
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.2);
+  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 12px 40px rgba(0, 0, 0, 0.4);
+  --shadow-xl: 0 24px 64px rgba(0, 0, 0, 0.5);
+}
